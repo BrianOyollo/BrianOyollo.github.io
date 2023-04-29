@@ -1988,16 +1988,19 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-radius: 0.25em;
-		border: solid 1px rgba(255, 255, 255, 0.15);
+		border: solid 1px rgba(51, 27, 95, 0.15);
 		background: rgba(255, 255, 255, 0.05);
-		margin: 0 0 2em 0;
+		padding: 1em 1em 1em 1em;
+		margin: 0em 0em 1em 0;
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
-			width: 50%;
-			border-top: solid 1px rgba(255, 255, 255, 0.15);
+			padding: 1em 1em 0 4.5em;
+			width: 49%;
+			border: solid 1px rgba(255, 255, 255, 0.15);
+			border-radius: 0.25em;
 			position: relative;
+			margin: 1em 0.1em 0 0em;
 		}
 
 			.features section:nth-child(-n + 2) {
@@ -2022,8 +2025,8 @@ input, select, textarea {
 				-ms-transform: scale(1);
 				transform: scale(1);
 				position: absolute;
-				left: 3em;
-				top: 3em;
+				left: 1em;
+				top: 1em;
 				opacity: 1;
 			}
 
